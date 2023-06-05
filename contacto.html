@@ -26,33 +26,33 @@
     <main>
         <form>
             <label for="nombreapellido">Nombre y Apellido</label>
-            <input type="text" id="nombreapellido">
+            <input type="text" id="nombreapellido" class="input-padron">
 
             <label for="correoelectronico">Correo Electrónico</label>
-            <input type="text" id="correoelectronico">
+            <input type="text" id="correoelectronico" class="input-padron">
 
             <label for="telefono">Teléfono</label>
-            <input type="text" id="telefono">
+            <input type="text" id="telefono" class="input-padron">
 
             <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" cols="70" rows="10"></textarea>
+            <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
 
             <div>
 
                 <p>Cómo le gustaría que lo contactemos?</p>
             
 
-                <label for="radio-email">E-mail</label>
-                <input type="radio" value="email" id="radio-email" name="contacto">
+                <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contacto">E-mail</label>
+                
 
-                <label for="radio-telefono">Teléfono</label>
-                <input type="radio" value="telefono" id="radio-telefono" name="contacto">
+                <label for="radio-telefono"><input type="radio" value="telefono" id="radio-telefono" name="contacto">Teléfono</label>
+                
 
-                <label for="radio-whatsapp">Whatsapp</label>
-                <input type="radio" value="whatsapp" id="radio-whatsapp" name="contacto">
+                <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contacto">Whatsapp</label>
+                
             </div>
 
-            <label><input type="checkbox">Le gustaría recibir novedades sobre la Barbería Alura?</label>
+            <label class="checkbox"><input type="checkbox">Le gustaría recibir novedades sobre la Barbería Alura?</label>
 
             <input type="submit" value="Enviar Formulario">
         </form>
