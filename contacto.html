@@ -38,19 +38,18 @@
             <textarea id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
 
             <fieldset>
+                <legend>Cómo le gustaría que lo contactemos?</legend>            
 
-                <legend>Cómo le gustaría que lo contactemos?</legend>
-            
+                <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contacto">E-mail</label>                
 
-                <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contacto">E-mail</label>
-                
+                <label for="radio-telefono"><input type="radio" value="telefono" id="radio-telefono" name="contacto">Teléfono</label>                
 
                 <label for="radio-telefono"><input type="radio" value="telefono" id="radio-telefono" name="contacto">Teléfono</label>
                 
 
                 <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contacto" checked>Whatsapp</label>                
             </fieldset>
-            
+
             <fieldset>
                 <legend>En cuál horario prefiere ser atendido?</legend>
                 <select name="" id="">
@@ -89,9 +88,11 @@
         </table>
 
     </main>
+
     <footer>
         <img src="img/logo-blanco.png" alt="Logo del footer">
         <p class="copyright">&copy Copyright Barbería Alura</p>
     </footer>
+    
 </body>
 </html>
