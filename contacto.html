@@ -38,20 +38,15 @@
             <textarea id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
 
             <fieldset>
+                <legend>Cómo le gustaría que lo contactemos?</legend>            
 
-                <legend>Cómo le gustaría que lo contactemos?</legend>
-            
+                <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contacto">E-mail</label>                
 
-                <label for="radio-email"><input type="radio" value="email" id="radio-email" name="contacto">E-mail</label>
-                
+                <label for="radio-telefono"><input type="radio" value="telefono" id="radio-telefono" name="contacto">Teléfono</label>                
 
-                <label for="radio-telefono"><input type="radio" value="telefono" id="radio-telefono" name="contacto">Teléfono</label>
-                
-
-                <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contacto" checked>Whatsapp</label>
-                
+                <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" name="contacto" checked>Whatsapp</label>                
             </fieldset>
-            
+
             <fieldset>
                 <legend>En cuál horario prefiere ser atendido?</legend>
                 <select name="" id="">
@@ -67,28 +62,34 @@
         </form>
 
         <table>
-            <tr>
-                <td>Días</td>
-                <td>Horario</td>
-            </tr>
-            <tr>
-                <td>Lunes</td>
-                <td>08hs - 20hs</td>
-            </tr>
-            <tr>
-                <td>Miércoles</td>
-                <td>08hs - 20hs</td>
-            </tr>
-            <tr>
-                <td>Viernes</td>
-                <td>08hs - 20hs</td>
-            </tr>
-
+            <thead>
+                <tr>
+                    <th>Días</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>08hs - 20hs</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>08hs - 20hs</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>08hs - 20hs</td>
+                </tr>
+            </tbody>
         </table>
+
     </main>
+
     <footer>
         <img src="img/logo-blanco.png" alt="Logo del footer">
         <p class="copyright">&copy Copyright Barbería Alura</p>
     </footer>
+    
 </body>
 </html>
